@@ -1,0 +1,44 @@
+---
+layout: post
+title: Getty Images API
+date: 2013-07-14 17:07:46.000000000 +02:00
+categories:
+- programming
+tags:
+- javascript
+- web development
+- zend
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  easy_noindex_nofollow_index: '1'
+  easy_noindex_nofollow_follow: '0'
+  _thumbnail_id: '875'
+  dsq_thread_id: '2274951023'
+author:
+  login: mrjrobertson
+  email: innit@hotmail.com
+  display_name: Jamie Robertson Interactive
+  first_name: ''
+  last_name: ''
+---
+<p>I was commissioned by <a href="http://www.dotwebdesign.co.uk" target="blank">Dot Web Design</a> to work with <a href="http://api.gettyimages.com/" target="_blank">Getty Images' API, called <em>Connect</em></a>. My brief was to design and develop an image search interface for an ecommerce site that sells printed canvas wall panels.</p>
+<p>The brief was to make it work like this:<br />
+<br />1. The user types in a word or phrase and relevant images appear,<br />
+<br />2. The user chooses their favourite image and selects the right size,<br />
+<br />3. The user adds the item to the shopping cart and repeats the process until satisfied, then goes to the checkout.</p>
+<h3>How it was made</h3>
+<p>I used jQuery for DOM manipulation and to store the input values. The data was then sent using JSON to a pHp script that used the Zend Framework to handle the api call.</p>
+<p>Working with the API was challenging because at the time it was quite new and so had a small user community. However Getty does provide quite good documentation and now has a good forum on its api site.</p>
+<h3>Http Requests with the Zend Framework (v2)</h3>
+<p>I started by trying to everything in jQuery and JSON, but eventually got stuck when it came to making the http post requests.</p>
+<p>In order to make http post requests successfully without falling foul of the same-origin security issues, Getty recommends using the Zend framework. This was my first time using the Zend framework and initially found it quite intimidating due to its overwhelming size. After a few headaches I finally decided that the best approach was to use just the Zend components that I needed.</p>
+<p><em>If anyone is reading this and is having similar problems, please drop me an email and I will send the code I used. Hopefully it will save you a lot of time.</em></p>
+<p><a href="http://www.jamierobertsoninteractive.com/wordpress/wp-content/uploads/2013/12/aap-01.png"><img src="assets/aap-01.png" alt="aap-01" width="635" height="480" class="aligncenter size-full wp-image-974" /></a></p>
+<p><a href="http://www.jamierobertsoninteractive.com/wordpress/wp-content/uploads/2013/12/aap-03.png"><img src="assets/aap-03.png" alt="aap-03" width="635" height="480" class="aligncenter size-full wp-image-976" /></a></p>
+<p><a href="http://www.jamierobertsoninteractive.com/wordpress/wp-content/uploads/2013/12/aap-02.png"><img src="assets/aap-02.png" alt="aap-02" width="635" height="480" class="aligncenter size-large wp-image-975" /></a></p>
+<p><a href="http://www.jamierobertsoninteractive.com/wordpress/wp-content/uploads/2013/12/aap-04.png"><img src="assets/aap-04.png" alt="aap-04" width="635" height="480" class="aligncenter size-full wp-image-977" /></a></p>
+<p><a href="http://www.jamierobertsoninteractive.com/wordpress/wp-content/uploads/2013/12/aap-06.png"><img src="assets/aap-06.png" alt="aap-06" width="635" height="480" class="aligncenter size-full wp-image-979" /></a></p>
+<p><a href="http://www.jamierobertsoninteractive.com/wordpress/wp-content/uploads/2013/12/aap-05.png"><img src="assets/aap-05.png" alt="aap-05" width="635" height="480" class="aligncenter size-large wp-image-978" /></a></p>
