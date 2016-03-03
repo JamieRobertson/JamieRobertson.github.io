@@ -1,0 +1,60 @@
+html 
+	box-sizing: border-box
+
+*,
+*:before,
+*:after 
+	box-sizing: inherit
+
+body 
+	font-family: $base-font-family
+	font-size: $base-font-size
+	line-height: $base-line-height
+	font-weight: 300
+	color: $text-color
+	background-color: $background-color
+	-webkit-text-size-adjust: 100%
+
+h1, h2, h3, h4, h5, h6 
+	font-weight: normal
+
+p a, a
+	color: #39c
+	text-decoration: none
+
+.clearfix
+	@include clearfix()
+
+.icon 
+	> svg 
+		display: inline-block
+		width: 16px
+		height: 16px
+		vertical-align: middle
+		path 
+			fill: $grey-color
+
+aside.sidebar 
+	@extend .col-md-4
+	@extend .col-md-pull-8 
+	max-width: 280px
+	background-color: $grey-color
+	@media (min-width: $screen-md-min)
+		position: fixed
+		top: 0
+		left: 0
+		bottom: 0
+	ul 
+		padding: 0
+		li 
+			list-style: none
+			a, a:hover
+				color: white
+			@media (min-width: $screen-sm-min)
+				a
+					color: #8693a2
+
+article.main
+	@extend .col-md-8 
+	@extend .col-md-push-4 
+	@extend .col-lg-7 

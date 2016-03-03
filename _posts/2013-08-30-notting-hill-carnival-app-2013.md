@@ -12,18 +12,10 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
-  easy_noindex_nofollow_index: '0'
-  easy_noindex_nofollow_follow: '0'
-  _thumbnail_id: '874'
-  dsq_thread_id: '2274886076'
-author:
-  login: mrjrobertson
-  email: innit@hotmail.com
-  display_name: Jamie Robertson Interactive
-  first_name: ''
-  last_name: ''
+easy_noindex_nofollow_index: 0
+easy_noindex_nofollow_follow: 0
+thumbnail_id: 874
+dsq_thread_id: 2274886076
 ---
 
 ### Version 2.0
