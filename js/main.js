@@ -6,18 +6,23 @@ function genEmail() {
 function buildPie(data) {
 	// Define the same colors that treehouse uses 
 	var colors = {
-		'iOS': '#53BBB4',
 		'Android': '#5cb860',
-		'PHP': '#838CC7',
-		'Development Tools': '#637a91',
-		'Python': '#f092b0',
-		'Databases': '#eb7728',
+		'Business': '#F9845B',
+		'C#': '#9e4d83',
 		'CSS': '#3079AB',
+		'Databases': '#eb7728',
+		'Design': '#e59a13',
+		'Development Tools': '#637a91',
+		'Digital Literacy': '#c38cd4',
+		'Game Development': '#20898c',
 		'HTML': '#39ADD1',
-		'Design': '#e59a13', 
+		'iOS': '#53BBB4',
+		'Java': '#2c9676',
 		'JavaScript': '#c25975',
-		'Game Development': '#20898c', 
-		'Ruby': '#e15258'
+		'PHP': '#838CC7',
+		'Python': '#f092b0',
+		'Ruby': '#e15258',
+		'Wordpress': '#838CC7'
 	};
 
 	// Make array of treehouse points
@@ -60,7 +65,7 @@ jQuery(function($) {
 			},
 			plotOptions: {
 				pie: {
-					animation: false,
+					animation: true,
 					borderWidth: 0,
 					center: ['50%', '50%'],
 					cursor: 'pointer',
