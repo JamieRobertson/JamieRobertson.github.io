@@ -1,5 +1,6 @@
 function genEmail() {
-    var e = ["hello","@","jamierobertson",".io"].join("");
+    // var e = ["hello","@","jamierobertson",".io"].join("");
+    var e = ["hello",".","jamie","@","protonmail",".com"].join("");
     return e;
 }
 
