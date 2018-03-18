@@ -94,16 +94,19 @@ jQuery(function($) {
     $('#e').append(genEmail());
 
     // Treehouse request
-    $.ajax({ 
-        type: 'GET',
-        url: 'https://teamtreehouse.com/jamierobertson.json',
-        dataType: 'json', 
-        success: function(data) { 
-            var pointsArray = buildPie(data.points);
-            // console.log(pointsArray);
-            renderPieChart($TrhChart, pointsArray);
-        }
-    });
+    function renderTreehouse() {
+        $.ajax({ 
+            type: 'GET',
+            url: 'https://teamtreehouse.com/jamierobertson.json',
+            dataType: 'json', 
+            success: function(data) { 
+                var pointsArray = buildPie(data.points);
+                // console.log(pointsArray);
+                renderPieChart($TrhChart, pointsArray);
+            }
+        });
+    }
+    renderTreehouse();
 
     // Duoliingo request
     // $.getJSON('https://duolingo.com/users/jamie607910?jsoncallback=?', function(data) {
