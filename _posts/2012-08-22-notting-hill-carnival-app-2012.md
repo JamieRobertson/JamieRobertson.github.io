@@ -13,19 +13,10 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
-  easy_noindex_nofollow_index: '0'
-  easy_noindex_nofollow_follow: '0'
-  _wp_old_slug: notting-hill-carnival-app
-  _thumbnail_id: '953'
-  dsq_thread_id: '2408959679'
-author:
-  login: mrjrobertson
-  email: innit@hotmail.com
-  display_name: Jamie Robertson Interactive
-  first_name: ''
-  last_name: ''
+easy_noindex_nofollow_index: 0
+easy_noindex_nofollow_follow: 0
+thumbnail_id: 953
+dsq_thread_id: 2408959679
 ---
 
 <img class="aligncenter size-full wp-image-548" title="" src="{{ site.baseurl }}/static/img/2012/08/nH-jri-header.jpg" alt="" width="550" height="269" />
