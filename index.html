@@ -7,25 +7,52 @@ layout: simple
         <div class="col-sm-12 col-md-8 col-md-offset-2">
             <h2>{{ site.title }}</h2>
 
+            <p>
+                I am a full stack developer, comfortable working with both the front-end and back-end. <br>
+                Nowadays, I mostly use Django, an MVC framework written in Python. On the front-end I use 
+                React, a JavaScript library and, if neccessary, Redux for state management. To automate our 
+                infrastructure I use Ansible. 
+            </p>
             <br>
 
-            <h3>
-                {% octicon mark-github height:24 aria-label:hi %}
+            <h3><!-- {% octicon mark-github height:24 aria-label:hi %} -->
                 My Github profile:
             </h3>
-            
             <p>
                 <!-- <span id="reposCount" class="text-muted" style="font-style: italic;"></span> <br> -->
-                <a href="{{ site.github_username | prepend: 'https://github.com/' }}">
-                    {{ site.github_username | prepend: 'https://github.com/' }}
+                <a href="{{ site.github_username | prepend: 'https://github.com/' }}" target="_blank">
+                    {{ site.github_username|prepend: 'https://github.com/' }}
                 </a>
+                <br>
+                Most of the projects I work on are in private repositories. 
+                <!-- Here are some personal projects that are open:  -->
             </p>
+            <br>
 
             <h3>My resum&eacute;:</h3>
-            <p><a href="{{ site.url }}{{ site.resume_url }}">{{ site.resume_url }}</a></p>
+            <p>
+                <a href="{{ site.resume_url|prepend: site.base_url }}" target="_blank">
+                    {{ site.resume_url|prepend: site.url }}
+                </a>
+            </p>
+            <br>
             
-            <h3><i class="icon"></i>Contact me:</h3>
+            <h3>Contact me:</h3>
             <p id="e"></p>
+            <br>
+
+            <h3>Stuff I love to work with:</h3>
+            <ul>
+                <li><b>Python</b>: Django, Scrapy, Flask (for smaller projects)</li>
+                <li><b>JavaScript</b>: React, Redux, jQuery</li>
+                <li><b>Infrastructure</b>: Ansible (Ruby), Webpack</li>
+                <li><b>Databases</b>: Postgresql, MongoDB</li>
+                <li><b>Design</b>: Sass, Photoshop, Illustrator</li>
+                <li><b>Other</b>: Salesforce marketing cloud (formerly ExactTarget)</li>
+            </ul>
+
+            <h3>Stuff I have worked with in the past:</h3>
+            <p>pHp, Wordpress, ActionScript (Flash), ColdFusion</p>
 
             <!-- <div id="TrhChart" style="width: 100%; height: 200px"></div> -->
 

@@ -1,6 +1,14 @@
+function rot13(s) {
+    function replaceChar(c) {
+        return String.fromCharCode(
+            (c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0)+13) ? c : c-26
+        );
+    }
+    return s.replace(/[a-zA-Z]/g, replaceChar);
+}
+
 function genEmail() {
-    // var e = ["hello","@","jamierobertson",".io"].join("");
-    var e = ["hello",".","jamie","@","protonmail",".com"].join("");
+    var e = [rot13('uryyb.wnzvr'),'&commat;',rot13('cebgbaznvy.pbz')].join('');
     return e;
 }
 
@@ -91,6 +99,7 @@ jQuery(function($) {
     var $TrhChart = $('#TrhChart');
 
     // Contact me
+    // http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/
     $('#e').append(genEmail());
 
     // Treehouse request
