@@ -17,7 +17,15 @@ url: 'jamierobertson.github.io' # the base hostname & protocol for your site
 static: '/static'
 
 twitter_username: JamieRudeboyson
-github_username:  JamieRobertson
+
+github_username: github.com/JamieRobertson
+github_url: https://github.com/JamieRobertson
+
+linkedin_username: linkedin.com/in/jamie-r
+linkedin_url: https://www.linkedin.com/in/jamie-r/  # https://www.linkedin.com/in/jamie-r-36616210/
+
+tel_se: '+46 (0) 76 026 66 42'
+tel_uk: '+44 (0) 7881 820 789'
 
 # Other URLs
 resume_url: '/resume'
@@ -27,6 +35,12 @@ plugins:
   - jekyll-redirect-from
 
 exclude: ['gulpfile.js', 'README.md', 'package.json', 'node_modules']
+
+# Sass settings
+sass:
+    style: compressed
+    sass_dir: _sass
+    sourcemap: true
 
 # Build settings
 markdown: kramdown

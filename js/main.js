@@ -100,7 +100,7 @@ jQuery(function($) {
 
     // Contact me
     // http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/
-    $('#e').append(genEmail());
+    $('.e-hidden').append(genEmail());
 
     // Treehouse request
     function renderTreehouse() {
@@ -115,7 +115,9 @@ jQuery(function($) {
             }
         });
     }
-    renderTreehouse();
+    if ($TrhChart.length) {
+        renderTreehouse();
+    }
 
     // Duoliingo request
     // $.getJSON('https://duolingo.com/users/jamie607910?jsoncallback=?', function(data) {
