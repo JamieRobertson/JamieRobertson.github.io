@@ -8,28 +8,41 @@ layout: simple
             <img src="https://avatars0.githubusercontent.com/u/4710451" alt="Jamie Robertson avatar" class="avatar">
             <ul class="list-unstyled">
                 <li><span class="e-hidden"><noscript>JavaScript is required to view email</noscript></span></li>
-                <li>{{ site.tel_se }}</li>
+                {% comment %}
+                <li>{{ site.tel_uk }}</li>
+                {% endcomment %}
                 <br>
                 <li><i class="fa fa-fw fa-github"></i> <a href="{{ site.github_url }}">{{ site.github_username }}</a></li>
                 <li><i class="fa fa-fw fa-linkedin"></i> <a href="{{ site.linkedin_url }}">{{ site.linkedin_username }}</a></li>
             </ul>
         </aside>
-        <main class="main col-sm-12 col-md-8 offset-md-4 col-lg-8 offset-lg-3">
+        <main class="main col-sm-12 col-md-8 offset-md-4 col-lg-8 offset-lg-3 col-xl-6">
             <header class="site-header">
-                <h1 class="h2">{{ site.title }}</h1>
+                <h1 class="h2">Jamie Robertson <small class="text-muted"> | full stack developer</small></h1>
 
                 <p class="lead">
-                    I am a web developer, comfortable working with both the front-end and back-end. 
-                    Since 2014 I have worked at Propellerhead Software, creators of 
-                    <a href="//wikipedia.org/wiki/Reason_(software)" target="_blank">Reason</a>, 
-                    the greatest <a href="//en.wikipedia.org/wiki/Digital_audio_workstation">DAW</a> on the planet. 
-                    I work with the Django web framework and the React JavaScript library. 
+                    I currently work as a consultant for Reason Studios (formerly Propellerhead Software), creators of <a href="//wikipedia.org/wiki/Reason_(software)" target="_blank">Reason</a>, a leading audio software used for producing, recording and editing music. 
+                </p>
+                <br>
+
+                <p>
+                    Some technologies I love to work with are: <br>
+                    &bull; the Django framework for web development <br>
+                    &bull; the React JavaScript library <br>
+                    &bull; React Native for app development
+                    {% comment %}
+                        the greatest <a href="//en.wikipedia.org/wiki/Digital_audio_workstation">DAW</a> on the planet.
+                    {% endcomment %}
                 </p>
                 <br>
 
                 <ul class="list-unstyled">
-                    <li><span class="e-hidden"><noscript>JavaScript is required to view email</noscript></span></li>
-                    <li>{{ site.tel_se }}</li>
+                    <li>Why not say hello: <br>
+                        <span class="e-hidden"><noscript>JavaScript is required to view email</noscript></span>
+                    </li>
+                    {% comment %}
+                    <li>{{ site.tel_uk }}</li>
+                    {% endcomment %}
                     <br>
                     <li><i class="fa fa-fw fa-github"></i> <a href="{{ site.github_url }}">{{ site.github_username }}</a></li>
                     <li><i class="fa fa-fw fa-linkedin"></i> <a href="{{ site.linkedin_url }}">{{ site.linkedin_username }}</a></li>
@@ -50,21 +63,23 @@ layout: simple
             </p> -->
 
             <dl>
-                <dt class="mt-5">Propellerhead Software</dt>
+                <dt class="mt-5">Reason Studios (formerly Propellerhead Software)</dt>
                 <dd>
                     <small class="text-muted">
                         <span>Dates: March 2014 – present</span> | 
-                        <span>Position: Web developer </span> | 
+                        <span>Position: Developer </span> | 
                         <span>Location: Stockholm</span>
                     </small> <br>
                     Responsibilities:
                     <ul>
-                        <li>Design &amp; development of <a href="//www.propellerheads.se">Propellerhead website</a> and <a href="//shop.propellerheads.se">shop</a>.</li>
-                        <li>Analysis and segmentation of users based on engagement and behaviour.</li>
-                        <li>Integration of third-party APIs.</li>
-                        <li>Automated task scheduling.</li>
+                        <li>Design &amp; development of <a href="//www.reasonstudios.com">reasonstudios.com</a>.</li>
+                        <li>Analysis and user segmentation based on engagement and behaviour.</li>
+                        <li>Marketing automation development, using Salesforce marketing platform APIs.</li>
+                        <li>Infrastructure development, using Vagrant and Ansible.</li>
+                        <!-- <li>Integration of third-party APIs.</li> -->
+                        <!-- <li>Automated task scheduling.</li> -->
                         <li>Development of internal analytics dashboards.</li>
-                        <li>Development of newsletters and tracking of user engagement using the <a href="//www.salesforce.com/eu/products/marketing-cloud/overview/">Salesforce marketing platform</a>.</li>
+                        <!-- <li>Development of newsletters and tracking of user engagement using the <a href="//www.salesforce.com/eu/products/marketing-cloud/overview/">Salesforce marketing platform</a>.</li> -->
                     </ul>
                 </dd>
                 <dt class="mt-5">Monki</dt>
@@ -81,14 +96,14 @@ layout: simple
                         <li>Design &amp; development of internal sites to be used by store employees.</li>
                     </ul>
                 </dd>
-                <dt class="mt-5">Bright Young Things Tuition</dt>
+                <dt class="mt-5">Bright Young Things Tuition (consultant)</dt>
                 <dd>
                     <small class="text-muted">
                         <span>Dates: September 2012 - March 2013</span> | 
                         <span>Position: App designer / developer (freelance) </span> | 
                         <span>Location: London</span>
                     </small> <br>
-                    Design & implementation of a multiple-choice question mobile app using PhoneGap. 
+                    Design &amp; implementation of educational mobile apps. 
                 <br>
                 </dd>
                 <dt class="mt-5">Craftsman Websites</dt>
@@ -98,21 +113,62 @@ layout: simple
                         <span>Position: Web designer / developer </span> | 
                         <span>Location: London</span>
                     </small> <br>
-                    A company set up with a friend to take on freelance design and development jobs. <br>
-                    Projects included the 'Notting Hill Carnival App' a cross platform mobile app created with PhoneGap and the Google maps API.
+                    <!-- A company set up with a friend to take on freelance design and development jobs. <br> -->
+                    Projects included the 'Notting Hill Carnival App' a cross platform mobile app. Technologies used included PhoneGap and the Google maps API. 
                 <br>
                 </dd>
             </dl>
             <hr class="my-5">
 
 
-            <h3>🎓 Education</h3>
-            <p>
-                <b>Edinburgh College of Art - University of Edinburgh</b> <br>
-                Received BA. Hons. in Visual Communication <br>
-                Graduated summer 2010
-            </p>
+
+            <h3>😸 Technology I have experience working with:</h3>
+            
+            <ul class="list-unstyled">
+                <li><b>Python</b>: 
+                    <small class="text-muted"><em>Django, Scrapy, Celery, Flask</em></small>
+                </li>
+
+                <li><b>JavaScript</b>: 
+                    <small class="text-muted"><em>ES7, React, various state librabries</em></small>
+                </li>
+
+                <li><b>iOS / hybrid</b>:
+                    <small class="text-muted"><em>Swift, React Native</em></small>
+                </li>
+
+                <li><b>Web design</b>: 
+                    <small class="text-muted"><em>CSS, Sass</em></small>
+                </li>
+
+                <li><b>Infrastructure</b>: 
+                    <small class="text-muted"><em>Vagrant, Ansible</em></small>
+                </li>
+
+                <li><b>Databases</b>: 
+                    <small class="text-muted"><em>MySQL, Postgresql, MongoDB</em></small>
+                </li>
+
+                <li><b>Design</b>: 
+                    <small class="text-muted"><em>Adobe Photoshop, Illustrator, inDesign</em></small>
+                </li>
+
+                <li><b>Other</b>: <br>
+                    <ul>
+                        <li><b>Marketing automation</b>: 
+                            <small class="text-muted"><em><a target="_blank" href="https://www.salesforce.com/products/marketing-cloud/overview/">Salesforce</a> marketing cloud (formerly ExactTarget)</em></small>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <br>
+
+            <h3>🙀 Technologies I have worked with in the past:</h3>
+            <ul class="list-unstyled">
+                <li>pHp, Wordpress, ActionScript (Flash), ColdFusion</li>
+            </ul>
             <hr class="my-5">
+
 
 
             <h3><i class="fa fa-github"></i> My Github profile</h3>
@@ -128,6 +184,18 @@ layout: simple
             </p>
             <hr class="my-5">
 
+
+
+            <h3>🎓 Education</h3>
+            <p>
+                <b>Edinburgh College of Art - University of Edinburgh</b> <br>
+                Visual Communication <br>
+                Graduated 2010
+            </p>
+
+
+
+            {% comment %}
             <h3><i class="fa fa-file-o"></i> My resum&eacute;</h3>
             <p>
                 <a href="{{ site.resume_url|prepend: site.base_url }}" target="_blank">
@@ -135,71 +203,7 @@ layout: simple
                 </a>
             </p>
             <hr class="my-5">
-            
-            <h3>😸 Tools I am experienced working with:</h3>
-            <!--
-            <p></p>
-            <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p></p>
-            <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p></p>
-            <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p></p>
-            <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p></p>
-            <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            -->
-            
-            <ul class="list-unstyled">
-                <li><b>Python</b>: 
-                    <small class="text-muted"><em>Django, Scrapy, Celery</em></small>
-                    <!-- Since: 2015 <br> -->
-                </li>
-                <li><b>JavaScript</b>: 
-                    <small class="text-muted"><em>ES7, React, Redux, jQuery</em></small>
-                    <!-- Since: 2008 <br> -->
-                </li>
-                <li><b>Infrastructure</b>: 
-                    <small class="text-muted"><em>Vagrant, Ansible</em></small>
-                    <!-- Since: 2015 <br> -->
-                </li>
-                <li><b>Databases</b>: 
-                    <small class="text-muted"><em>MySQL, Postgresql, MongoDB</em></small>
-                    <!-- Since: 2012 <br> -->
-                </li>
-                <li><b>Web design</b>: 
-                    <small class="text-muted"><em>CSS, Sass</em></small>
-                    <!-- Since: 2008 <br> -->
-                </li>
-                <li><b>Digital design</b>: 
-                    <small class="text-muted"><em>Adobe Photoshop, Illustrator, inDesign</em></small>
-                    <!-- Since: ~2004 <br> -->
-                </li>
-                <li><b>Other</b>: <br>
-                    <ul>
-                        <li><b>Marketing automation</b>: 
-                            <small class="text-muted"><em><a target="_blank" href="https://www.salesforce.com/products/marketing-cloud/overview/">Salesforce</a> marketing cloud (formerly ExactTarget)</em></small>
-                        </li>
-                        <li><b>iOS (personal projects)</b>: 
-                            <small class="text-muted"><em>Swift, React Native</em></small>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <br>
-
-            <h3>🙀 Technologies I have worked with in the past:</h3>
-            <p>pHp, Wordpress, ActionScript (Flash), ColdFusion</p>
+            {% endcomment %}
 
             <!-- <div id="TrhChart" style="width: 100%; height: 200px"></div> -->
 
