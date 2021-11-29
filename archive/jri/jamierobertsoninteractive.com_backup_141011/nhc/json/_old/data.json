@@ -1,0 +1,296 @@
+{
+
+	"Soundsystems" : {
+
+		"Four-Play" : {
+			"Title" : "4Play",
+			"Content" : "House, garage, R&B, hip hop, bashment, reggae",
+			"Latitude" : 51.526301,
+			"Longitude" : -0.214019,
+		    "Left" : 14.781127466735294,
+		    "Top" : 7.515107690718373
+		},
+		"Aba-shan-ti" : {
+			"Title" : "Aba-shan-ti",
+			"Content" : "Roots, reggae, dub",
+			"Latitude" : 51.524592,
+			"Longitude" : -0.210865,
+		    "Left" : 24.918043324548467,
+		    "Top" : 16.34213108826077
+		},
+		"Arts-A-Light" : {
+			"Title" : "Arts A Light",
+			"Content" : "R&B, reggae, hip hop, classic garage",
+			"Latitude" : 51.521492,
+			"Longitude" : -0.21051,
+		    "Left" : 26.05900880632514,
+		    "Top" : 32.353700738569785
+		},
+		"Blackstar-Showtime" : {
+			"Title" : "Blackstar Showtime",
+			"Content" : "Reggae, ragga, soul",
+			"Latitude" : 51.524312,
+			"Longitude" : -0.209223,
+		    "Left" : 28.022755029890096,
+		    "Top" : 44.336552863999984
+		},
+		"Channel-One" : {
+			"Title" : "Channel One",
+			"Content" : "Roots & culture",
+		    "Left" : 58.09281995243302,
+		    "Top" : 49.646195960937284
+		},
+		"CMC-Matrix" : {
+			"Title" : "CMC Matrix",
+			"Content" : "Drum & bass",
+		    "Left" : 47.05598765828892,
+		    "Top" : 49.09870357933312
+		},
+		"Different-Strokes" : {
+			"Title" : "Different Strokes",
+			"Content" : "Anything goes, house-party style",
+		    "Left" : 53.05650189625247,
+		    "Top" : 47.719642580413094
+		},
+		"Disco-Hustlers" : {
+			"Title" : "Disco Hustlers",
+			"Content" : "House music through the ages",
+		    "Left" : 54.920614514366584,
+		    "Top" : 60.270647177303395
+		},
+		"Disya-Generation" : {
+			"Title" : "Disya Generation",
+			"Content" : "R&B, hip hop, bashment, soca",
+		    "Left" : 55.402712605258095,
+		    "Top" : 54.54780228291721
+		},
+		"Gazs-Rockin-Blues" : {
+		    "Title" : "Gaz's Rockin' Blues",
+		    "Content" : "Classic ska, revival, New Orlean's R&B",
+		    "Left" : 59.95371858327443,
+		    "Top" : 57.44021486491254
+		},
+		"GI-Roadshow" : {
+		    "Title" : "GI Roadshow",
+		    "Content" : "Reggae, bashment, salsa, R&B",
+		    "Left" : 20.161342161085045,
+		    "Top" : 7.582252982777667
+		},
+		"Gladdy-Waxs-Roadshow" : {
+		    "Title" : "Gladdy Wax's Roadshow",
+		    "Content" : "Roots & culture, reggae & ska",
+		    "Left" : 29.883653660731508,
+		    "Top" : 35.581839780971684
+		},
+		"Good-Times" : {
+		    "Title" : "Good Times",
+		    "Content" : "Norman Jay's famous soundsystem",
+		    "Left" : 16.770585588481072,
+		    "Top" : 13.718299674576018
+		},
+		"Love-TKO" : {
+		    "Title" : "Love TKO",
+		    "Content" : "Lover's rock & soca",
+		    "Left" : 40.161984958539584,
+		    "Top" : 18.960797479454023
+		},
+		"High-Grade" : {
+		    "Title" : "High Grade",
+		    "Content" : "Reggae & roots",
+		    "Left" : 30.195410426174757,
+		    "Top" : 17.788337379240087
+		},
+		"Jah-Observer" : {
+		    "Title" : "Jah Observer",
+		    "Content" : "Roots & culture",
+		    "Left" : 60.368322941441136,
+		    "Top" : 56.26775476469861
+		},
+		"KCC-Rocking-Crew" : {
+		    "Title" : "KCC & the rocking crew",
+		    "Content" : "Funky US house",
+		    "Left" : 32.97872340425538,
+		    "Top" : 27.374619079584246
+		},
+		"Killawatt" : {
+		    "Title" : "Killawatt",
+		    "Content" : "Reggae, ragga, dancehall",
+		    "Left" : 51.610207623577864,
+		    "Top" : 44.82206497596296
+		},
+		"King-Tubbys" : {
+		    "Title" : "King Tubbys",
+		    "Content" : "Reggae, dancehall, bashment, R&B",
+		    "Left" : 49.263996914572246,
+		    "Top" : 54.12943546301353
+		},
+		"Latin-Rave-Street-Jam" : {
+		    "Title" : "Latin Rave Street Jam",
+		    "Content" : "Latin & salsa",
+		    "Left" : 28.504853120781693,
+		    "Top" : 33.5106657713826
+		},
+		"Lord-Gellys" : {
+		    "Title" : "Lord Gelly's",
+		    "Content" : "Reggae, R&B, soca & beyond",
+		    "Left" : 26.161856399048688,
+		    "Top" : 48.89210268062703
+		},
+		"Mangrove-Sound" : {
+		    "Title" : "Mangrove Sound",
+		    "Content" : "Soca & reggae",
+		    "Left" : 47.26489683100854,
+		    "Top" : 51.03042198231211
+		},
+		"Mastermind-Roadshow" : {
+		    "Title" : "Mastermind Roadshow",
+		    "Content" : "Upfront R&B, hip hop, <br />soul, old school, reggae",
+		    "Left" : 11.52857234685353,
+		    "Top" : 10.273229688521717
+		},
+		"Mellowtone" : {
+		    "Title" : "Mellowtone",
+		    "Content" : "Soul, ragga, R&B, revival",
+		    "Left" : 22.369351417368367,
+		    "Top" : 28.340478281055393
+		},
+		"Metro-Glory" : {
+		    "Title" : "Metro Glory",
+		    "Content" : "House to roots",
+		    "Left" : 57.4693064215466,
+		    "Top" : 50.61205516240843
+		},
+		"Nasty-Love-Mixing-Lab" : {
+		    "Title" : "Nasty Love Mixing Lab",
+		    "Content" : "Reggae, ragga, hip hop, R&B",
+		    "Left" : 51.19560326541107,
+		    "Top" : 59.44424358244233
+		},
+		"Peoples-Sound" : {
+		    "Title" : "People's Sound",
+		    "Content" : "Old & new reggae",
+		    "Left" : 48.84939255640553,
+		    "Top" : 50.405454263702346
+		},
+		"Pineapple-Tribe" : {
+		    "Title" : "Pineapple Tribe",
+		    "Content" : "Techno & breaks",
+		    "Left" : 61.81461721411583,
+		    "Top" : 64.06177366871057
+		},
+		"Rampage" : {
+		    "Title" : "Rampage",
+		    "Content" : "The notorious Rampage <br />back for 2013",
+		    "Left" : 49.4600501382015,
+		    "Top" : 61.923454367025485
+		},
+		"Rapattack" : {
+		    "Title" : "Rapattack",
+		    "Content" : "Old school soul, rare groove, UKG, funky",
+		    "Left" : 45.195089027447516,
+		    "Top" : 45.44186767211792
+		},
+		"Rough-But-Sweet" : {
+		    "Title" : "Rough But Sweet",
+		    "Content" : "Reggae, dub, calypso, garage",
+		    "Left" : 38.230378607700764,
+		    "Top" : 14.890759774789949
+		},
+		"Sancho-Panza" : {
+		    "Title" : "Sancho Panza",
+		    "Content" : "Funky house, disco, techno",
+		    "Left" : 22.092948511923954,
+		    "Top" : 10.825887092580686
+		},
+		"Saxon-Studio" : {
+		    "Title" : "Saxon Sound",
+		    "Content" : "Ragga & reggae",
+		    "Left" : 24.09204859548757,
+		    "Top" : 33.09746397393372
+		},
+		"Sir-Lloyd" : {
+		    "Title" : "Sir Lloyd",
+		    "Content" : "R&B & reggae",
+		    "Left" : 53.05650189625247,
+		    "Top" : 40.19936986723992
+		},
+		"Sir-Valdez" : {
+		    "Title" : "Sir Valdez",
+		    "Content" : "R&B, hip hop, ragga",
+		    "Left" : 38.09217715497847,
+		    "Top" : 21.992665668096148
+		},
+		"SSP-Sound-System" : {
+		    "Title" : "SSP Sound System",
+		    "Content" : "Funky & soulful house, UKG, classics",
+		    "Left" : 30.092562833451215,
+		    "Top" : 8.961313981697689
+		},
+		"The-Fun-Bunch" : {
+		    "Title" : "The Fun Bunch",
+		    "Content" : "R&B, hip hop, garage, boogie",
+		    "Left" : 68.02404062479918,
+		    "Top" : 54.47549196836642
+		},
+		"Virgo-International" : {
+		    "Title" : "Virgo International",
+		    "Content" : "Reggae, soca, hip hop, R&B, garage",
+		    "Left" : 24.36845150093207,
+		    "Top" : 45.648468570824015
+		},
+		"Westbourne-Park" : {
+		    "Title" : "Westbourne Park",
+		    "Content" : "<i>Exit only from 11:00-18:00 <br />station closes at 23:30</i>",
+		    "Left" : 56.56296201067045,
+		    "Top" : 34.26992407414765
+		},
+		"Ladbroke-Grove" : {
+		    "Title" : "Ladbroke Grove",
+		    "Content" : "<i>Station closed</i>",
+		    "Left" : 26.62145657903199,
+		    "Top" : 53.235886576093186
+		},
+		"Royal-Oak" : {
+		    "Title" : "Royal Oak",
+		    "Content" : "<i>exit only from 11:00-18:00 <br />station closes at 18:00</i>",
+		    "Left" : 97.65700327826701,
+		    "Top" : 43.16409276378605
+		},
+		"Bayswater" : {
+		    "Title" : "Bayswater",
+		    "Content" : "<i>Open both days</i>",
+		    "Left" : 98.6211994600502,
+		    "Top" : 79.72212179121189
+		},
+		"NH-gate" : {
+		    "Title" : "Notting Hill Gate",
+		    "Content" : "<i>12:00-19:00 exit only <br />no circle & district line access</i>",
+		    "Left" : 72.49469692100025,
+		    "Top" : 96.06941790196417
+		},
+		"RandomRouteMarker1" : {
+		    "Title" : "RandomRouteMarker1",
+		    "Content" : "<i>Station closed</i>",
+		    "Left" : 26.62145657903999,
+		    "Top" : 53.23588657609399
+		},
+		"RandomRouteMarker2" : {
+		    "Title" : "RandomRouteMarker2",
+		    "Content" : "<i>Travel information <br />not yet available</i>",
+		    "Left" : 97.65700327826111,
+		    "Top" : 43.16409276378111
+		},
+		"FirstAidMarker1" : {
+		    "Title" : "FirstAidMarker1",
+		    "Content" : "<i>Travel information <br />not yet available</i>",
+		    "Left" : 98.621199460000,
+		    "Top" : 79.72212179120000
+		},
+		"PartyMarker1" : {
+		    "Title" : "PartyMarker1",
+		    "Content" : "<i>12:00-19:00 exit only <br />no circle & district line access</i>",
+		    "Left" : 72.49469692100000,
+		    "Top" : 96.06941790000000
+		}
+	}
+}
