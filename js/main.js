@@ -102,22 +102,29 @@ jQuery(function($) {
     // http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/
     $('.e-hidden').append(genEmail());
 
+
+    var currentDate = new Date(),
+        june2021 = new Date('June 1, 2021'),
+        timeDifferenceStem = currentDate.getTime() - june2021.getTime(),
+        yearsStem = timeDifferenceStem / (1000 * 60 * 60 * 24 * 365.25);
+    $('#yearsStem').append(`(${yearsStem.toFixed(1)} years)`);
+
     // Treehouse request
-    function renderTreehouse() {
-        $.ajax({ 
-            type: 'GET',
-            url: 'https://teamtreehouse.com/jamierobertson.json',
-            dataType: 'json', 
-            success: function(data) { 
-                var pointsArray = buildPie(data.points);
-                // console.log(pointsArray);
-                renderPieChart($TrhChart, pointsArray);
-            }
-        });
-    }
-    if ($TrhChart.length) {
-        renderTreehouse();
-    }
+    // function renderTreehouse() {
+    //     $.ajax({ 
+    //         type: 'GET',
+    //         url: 'https://teamtreehouse.com/jamierobertson.json',
+    //         dataType: 'json', 
+    //         success: function(data) { 
+    //             var pointsArray = buildPie(data.points);
+    //             // console.log(pointsArray);
+    //             renderPieChart($TrhChart, pointsArray);
+    //         }
+    //     });
+    // }
+    // if ($TrhChart.length) {
+    //     renderTreehouse();
+    // }
 
     // Duoliingo request
     // $.getJSON('https://duolingo.com/users/jamie607910?jsoncallback=?', function(data) {
@@ -125,8 +132,8 @@ jQuery(function($) {
 
     // $('body').append('<iframe src="https://github.com/users/JamieRobertson/contributions/"></iframe>');
     
-    $.getJSON('https://api.github.com/users/JamieRobertson/repos', function(data) {
-        $('#reposCount').append(data.length + ' <span>repositories</span>');
-    });
+    // $.getJSON('https://api.github.com/users/JamieRobertson/repos', function(data) {
+    //     $('#reposCount').append(data.length + ' <span>repositories</span>');
+    // });
 
 });
