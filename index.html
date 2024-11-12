@@ -7,166 +7,109 @@ layout: simple
         <aside class="sidebar col-sm-12 col-md-4 col-lg-3">
             <img src="https://avatars0.githubusercontent.com/u/4710451" alt="Jamie Robertson avatar" class="avatar">
             <ul class="list-unstyled">
-                <li><span class="e-hidden"><noscript>JavaScript is required to view email</noscript></span></li>
-                {% comment %}
-                <li>{{ site.tel_uk }}</li>
-                {% endcomment %}
-                <br>
-                <li><i class="fa fa-fw fa-github"></i> <a href="{{ site.github_url }}">{{ site.github_username }}</a></li>
-                <li><i class="fa fa-fw fa-linkedin"></i> <a href="{{ site.linkedin_url }}">{{ site.linkedin_username }}</a></li>
+                <li class="d-none d-print-block mb-3">Contact</li>
+                <li><i class="fa fa-fw fa-envelope"></i> <span class="e-hidden"><noscript>JavaScript is required to view email</noscript></span></li>
+
+                <li class="d-none d-print-block">{{ site.tel_uk }}</li>
+
+                <li class="mt-3"><i class="fa fa-fw fa-github"></i> <a href="{{ site.github_url }}" target="_blank">{{ site.github_username }}</a></li>
+                <li><i class="fa fa-fw fa-linkedin"></i> <a href="{{ site.linkedin_url }}" target="_blank">{{ site.linkedin_username }}</a></li>
+                <li class="d-none d-print-block"> <a href="https://jamierobertson.github.io" target="_blank">jamierobertson.github.io</a></li>
             </ul>
         </aside>
         <main class="main col-sm-12 col-md-8 offset-md-4 col-lg-8 offset-lg-3 col-xl-6">
             <header class="site-header">
-                <h1 class="h2">Jamie Robertson <small class="text-muted"> | Full Stack Developer</small></h1>
+                <h1 class="h2 font-weight-normal mb-3">Jamie Robertson</h1>
 
-                <p class="lead">
-                    I currently work as a Full Stack Developer for <a href="https://stem.tech" target="_blank" rel="nofollow">Stem Tech</a>. 
-                    Which produces a platform for artists to release their music in a new format, with the ability to remix and rework it. 
-                    The project originated from the Stem Player - a collaboration with Kanye West to design and develop a handheld audio mixing device.
-                    <br /><br />
-                    The Stem Player was originally designed and developed by <a href="https://kano.me" target="_blank" rel="nofollow">Kano Computing</a>. Kano Computing designed and developed products and software to empower kids by teaching them about technology.
-                    <br /><br />
-                    I have previously worked as a developer for <a href="https://reasonstudios.com" target="_blank" rel="nofollow">Reason Studios</a> (formerly Propellerhead) and <a href="https://monki.com" target="_blank" rel="nofollow">Monki</a>.
+                <p class="h5 font-weight-normal mb-3">
+                    I work as a <b>full stack developer</b> for music streaming startup, <a href="https://stem.tech" target="_blank" rel="nofollow">STEM Tech</a> &mdash; deconstructing music into its constitutive parts and building it back up in new and exciting ways using machine learning algorithms.
                 </p>
-                <br>
+                <p class="small d-print-none">
+                    STEM Tech originated from a collaboration with Kanye West to develop a handheld audio mixing device called the StemPlayer. 
+                </p>
+                <p class="small d-print-none">
+                    The partnership was originally with <a href="https://kano.me" target="_blank" rel="nofollow">Kano Computing</a>. 
+                    Kano Computing designed web apps, DIY computers and coding kits for children. Designed to help empower them by 
+                    teaching them about technology.
+                </p>
+                <p class="small d-print-none">
+                    I have also previously worked as a developer for the music production software company <a href="https://reasonstudios.com" target="_blank" rel="nofollow">Reason Studios</a> in Stockholm, Sweden.
+                </p>
 
-                <ul class="list-unstyled">
-                    <li>Why not say hello: <br>
-                        <span class="e-hidden"><noscript>JavaScript is required to view email</noscript></span>
-                    </li>
-                    {% comment %}
+                {% comment %}
                     <li>{{ site.tel_uk }}</li>
-                    {% endcomment %}
-                    <br>
-                    <li><i class="fa fa-fw fa-github"></i> <a href="{{ site.github_url }}">{{ site.github_username }}</a></li>
-                    <li><i class="fa fa-fw fa-linkedin"></i> <a href="{{ site.linkedin_url }}">{{ site.linkedin_username }}</a></li>
-                </ul>
+                {% endcomment %}
+
+                <div class="row d-print-none">
+                    <div class="col-sm-12 col-md-auto">
+                        <ul class="list-unstyled">
+                            <li class="mb-1"><i class="fa fa-fw fa-envelope-o"></i> <span class="e-hidden"><noscript>JavaScript is required to view email</noscript></span></li>
+                            <li class="mb-1"><i class="fa fa-fw fa-file-o"></i> <a href="{{ site.resume_url|prepend: site.base_url }}" target="_blank">download this CV</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-auto">
+                        <ul class="list-unstyled">
+                            <li class="mb-1"><i class="fa fa-fw fa-github"></i> <a href="{{ site.github_url }}" target="_blank">{{ site.github_username }}</a></li>
+                            <li class="mb-1"><i class="fa fa-fw fa-linkedin"></i> <a href="{{ site.linkedin_url }}" target="_blank">{{ site.linkedin_username }}</a></li>
+                        </ul>
+                    </div>
+                </div>
             </header>
-            <hr class="my-5">
 
-            <h3>Professional experience</h3>
+            <div class="text-divider"><p class="text-muted font-italic text-divider__inner">Experience</p></div>
 
-            <dl>
-                <dt class="mt-5">Full Stack Developer, Kano Computing / Stem Player / Stem FM</dt>
-                <dd>
-                    <small class="text-muted">
-                        <span>Dates: June 2021 - present <span id="yearsStem"></span></span> | 
-                        <span>Location: London</span>
-                    </small> <br>
-                    Responsibilities:
-                    <ul>
-                        <li>Developed and enhanced <a href="//www.stemplayer.com/" target="_blank" rel="nofollow">stemplayer.com</a>, a React web app that utilizes the WebUSB API for seamless communication with the Stemplayer device, transforming it into an innovative audio streaming and mixing platform.</li>
-                        <li>Development of <a href="https://world.kano.me/" target="_blank" ref="nofollow">Kano World</a>, a suite of engaging web applications aimed at teaching children coding skills and fostering their creativity.</li>
-                        <li>Leveraged Python to build robust APIs supporting various functionalities within the web app, including intelligent music splitting through Facebook's Demucs machine learning algorithm.</li>
-                        <li>Successfully integrated payment APIs (Paddle/Shopify/Stripe) to facilitate secure product subscriptions and purchases, optimizing the e-commerce experience.</li>
-                    </ul>
-                </dd>
-
-                <dt class="mt-5">Web Developer, Reason Studios (formerly Propellerhead Software)</dt>
-                <dd>
-                    <small class="text-muted">
-                        <span>Dates: March 2014 - June 2021 (~ 7 years)</span> | 
-                        <span>Location: Stockholm / London</span>
-                    </small> <br>
-                    Responsibilities:
-                    <ul>
-                        <li>Led the design and development of <a href="//www.reasonstudios.com" target="_blank" rel="nofollow">reasonstudios.com</a>, successfully rewriting the site from pHp/ColdFusion to Django/React.</li>
-                        <li>Conducted data analysis and user segmentation to drive engagement and enhance overall user experience.</li>
-                        <li>Developed marketing automation strategies using Salesforce APIs, resulting in improved efficiency and effectiveness of marketing campaigns.</li>
-                        <li>Played a key role in infrastructure development by transitioning from Vagrant and Ansible to AWS and Docker, leading to enhanced scalability and performance of web applications.</li>
-                        <li>Created internal analytics dashboards to provide real-time insights and enable data-driven decision making within the company.</li>
-                    </ul>
-                </dd>
-                
-                <dt class="mt-5">Graphic design / Final art, Monki</dt>
-                <dd>
-                    <small class="text-muted">
-                        <span>Dates: April 2013 - January 2014</span> | 
-                        <span>Location: Stockholm</span>
-                    </small> <br>
-                    Responsibilities:
-                    <ul>
-                        <li>Design for a range of material for print and web.</li>
-                        <li>Development of online campaigns for <a href="//www.monki.com" target="_blank" rel="nofollow">monki website</a>.</li>
-                        <li>Design &amp; development of internal sites to be used by store employees.</li>
-                    </ul>
-                </dd>
-
-                <dt class="mt-5">App Designer / Developer (consultant), Bright Young Things Tuition</dt>
-                <dd>
-                    <small class="text-muted">
-                        <span>Dates: September 2012 - March 2013</span> | 
-                        <span>Location: London</span>
-                    </small> <br>
-                    Design &amp; implementation of educational mobile apps (hybrid apps). 
-                <br>
-                </dd>
-
-                <dt class="mt-5">Web Designer / Developer, Craftsman Websites</dt>
-                <dd>
-                    <small class="text-muted">
-                        <span>Dates: January 2012 - August 2012</span> | 
-                        <span>Location: London</span>
-                    </small> <br>
-                    Projects included the 'Notting Hill Carnival App' a cross platform mobile app (hybrid app). Technologies used included PhoneGap and the Google maps API. 
-                <br>
-                </dd>
+            <dl class="exp">
+                {% for x in site.data.experience %}
+                    <dt class="mt-5 mb-3">
+                        <h3 class="mb-0">{{ x.company }}</h3>
+                        <small class="text-muted font-italic">
+                            {% if x.description %} {{ x.description }} {% endif %}
+                            <br>
+                            {% if x.link and x.location -%}
+                                <a href="{{ x.link }}" target="_blank">{{ x.link }}</a>
+                                | {{ x.location }}
+                            {%- endif %}
+                        </small>
+                    </dt>
+                    <dd>
+                        {%- if x.stack -%}
+                            <div class="stack mb-3">
+                                {%- for s in x.stack -%}
+                                    <span class="stack__item">{{ s }}</span>
+                                {%- endfor -%}
+                            </div>
+                        {%- endif -%}
+                        {%- if x.positions -%}
+                            <ul class="list-unstyled">
+                                {%- for p in x.positions -%}
+                                <li>
+                                    <span class="font-weight-bold d-block mt-1">{{ p.title }}</span>
+                                    <small class="text-muted">{{ p.dates }}</small>
+                                </li>
+                                {%- endfor -%}
+                            </ul>
+                        {%- endif -%}
+                        {%- if x.responsibilities -%}
+                            <ul class="small">
+                                {%- for r in x.responsibilities -%}
+                                    <li>{{ r }}</li>
+                                {%- endfor -%}
+                            </ul>
+                        {%- endif -%}
+                    </dd>
+                {% endfor %}
             </dl>
             <hr class="my-5">
 
-
-
-            <h3>😸 Technology I have experience working with:</h3>
-            
-            <ul class="list-unstyled">
-                <li><b>Python</b>: 
-                    <small class="text-muted"><em>Django, Scrapy, Celery, Flask</em></small>
-                </li>
-
-                <li><b>JavaScript</b>: 
-                    <small class="text-muted"><em>Typescript, ES7, React, various state libraries</em></small>
-                </li>
-
-                <li><b>iOS / hybrid</b>:
-                    <small class="text-muted"><em>Swift, React Native</em></small>
-                </li>
-
-                <li><b>Web design</b>: 
-                    <small class="text-muted"><em>CSS, Sass</em></small>
-                </li>
-
-                <li><b>Infrastructure</b>: 
-                    <small class="text-muted"><em>AWS, Vagrant, Ansible</em></small>
-                </li>
-
-                <li><b>Databases</b>: 
-                    <small class="text-muted"><em>MySQL, Postgres, MongoDB, DynamoDB, Athena</em></small>
-                </li>
-
-                <li><b>Design</b>: 
-                    <small class="text-muted"><em>Photoshop, Illustrator, inDesign, After Effects, Blender</em></small>
-                </li>
-
-                <li><b>Other</b>: <br>
-                    <ul>
-                        <li><b>Marketing automation</b>: 
-                            <small class="text-muted"><em><a target="_blank" href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank" rel="nofollow">Salesforce</a> marketing cloud (formerly ExactTarget)</em></small>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <br>
-
-            <h3>🙀 Technologies I have worked with in the past:</h3>
-            <ul class="list-unstyled">
-                <li>pHp, Wordpress, ActionScript (Flash), ColdFusion</li>
-            </ul>
+            <h4>🎓 Education</h4>
+            <p>
+                <b>Edinburgh College of Art - University of Edinburgh</b> <br>
+                Visual Communication <br>
+                Graduated 2010
+            </p>
             <hr class="my-5">
 
-
-
-            <h3><i class="fa fa-github"></i> My Github profile</h3>
+            <h4><i class="fa fa-github"></i> My Github profile</h4>
             <p>
                 <!-- <span id="reposCount" class="text-muted" style="font-style: italic;"></span> <br> -->
                 <a href="{{ site.github_url }}">
@@ -177,28 +120,51 @@ layout: simple
                 Some things are publicly available, like <a href="{{ site.github_url }}?tab=repositories&type=fork" target="_blank">forked repos</a> and <a href="{{ site.github_url }}?tab=repositories&type=source" target="_blank">personal projects</a>.
                 <!-- Here are some personal projects that are open:  -->
             </p>
-            <hr class="my-5">
 
-
-
-            <h3>🎓 Education</h3>
-            <p>
-                <b>Edinburgh College of Art - University of Edinburgh</b> <br>
-                Visual Communication <br>
-                Graduated 2010
-            </p>
-
-
-
-            {% comment %}
-            <h3><i class="fa fa-file-o"></i> My resum&eacute;</h3>
-            <p>
-                <a href="{{ site.resume_url|prepend: site.base_url }}" target="_blank">
-                    {{ site.resume_url|prepend: site.url }}
-                </a>
-            </p>
-            <hr class="my-5">
-            {% endcomment %}
+            <div class="d-print-none">
+                <hr class="my-5">
+                <h4>😸 Technology I have experience working with:</h4>
+                <ul class="list-unstyled">
+                    <li><b>Python</b>: 
+                        <small class="text-muted"><em>Django, Scrapy, Celery, Flask</em></small>
+                    </li>
+                    
+                    <li><b>JavaScript</b>: 
+                        <small class="text-muted"><em>Typescript, ES7, React, various state libraries</em></small>
+                    </li>
+                    
+                    <li><b>iOS</b>:
+                        <small class="text-muted"><em>Swift, React Native</em></small>
+                    </li>
+                    
+                    <li><b>Web design</b>: 
+                        <small class="text-muted"><em>CSS, Sass</em></small>
+                    </li>
+                    
+                    <li><b>Infra / DevOps</b>: 
+                        <small class="text-muted"><em>AWS, CloudFormation, Terraform, Docker, Vagrant, Ansible</em></small>
+                    </li>
+                    
+                    <li><b>Databases</b>: 
+                        <small class="text-muted"><em>MySQL, Postgres, MongoDB, DynamoDB, Athena</em></small>
+                    </li>
+                    
+                    <li><b>Design</b>: 
+                        <small class="text-muted"><em>Photoshop, Illustrator, inDesign, After Effects, Blender</em></small>
+                    </li>
+                    
+                    <li><b>Marketing automation</b>: 
+                        <small class="text-muted"><em><a target="_blank" href="https://www.salesforce.com/products/marketing-cloud/overview/" target="_blank" rel="nofollow">Salesforce</a> marketing cloud (formerly ExactTarget)</em></small>
+                    </li>
+                </ul>
+                <br>
+                
+                <h4>🙀 Technologies I have worked with in the past:</h4>
+                <ul class="list-unstyled">
+                    <li>pHp, Wordpress, ActionScript (Flash), ColdFusion, jQuery, Ember, Backbone</li>
+                </ul>
+                <hr class="my-5">
+            </div>
 
         </main>
     </div>

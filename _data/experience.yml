@@ -1,0 +1,140 @@
+- company: STEM Tech
+  description: Music streaming platform and product collaboration with Kanye West
+  link: stem.tech
+  location: London
+  positions:
+    - title: Full Stack Developer
+      dates: Jun 2021 - present (3+ years)
+  stack:
+    - TypeScript
+    - React
+    - Jest
+    - Cypress
+    - Python
+    - Flask
+    - AWS
+    - Azure
+    - Docker
+    - Terraform
+    - Airflow
+    - Stripe
+    - Shopify
+  responsibilities:
+    - Developed and enhanced stemplayer.com, a React web app that uses the WebUSB API for seamless communication with the StemPlayer, an audio mixing device, transforming it into an innovative audio streaming and mixing platform.
+    - Developed stem.tech, a music streaming platform that allows artists to upload and monetize their music, and fans to discover and support their favorite artists.
+    - Leveraged Python to build robust APIs supporting various functionalities within the web app, including intelligent music splitting through machine learning algorithms.
+    - Successfully integrated payment APIs (Shopify/Stripe) for subscriptions and purchases, optimizing the e-commerce experience.
+
+- company: Kano Computing
+  description: Web apps, DIY computers and coding kits for kids
+  link: kano.me
+  location: London
+  positions: 
+    - title: Full Stack Developer
+      dates: Jun 2021 - Jun 2023 (3 years)
+  stack:
+    - TypeScript
+    - React
+    - Jest
+    - Cypress
+    - Python
+    - Flask
+    - AWS
+    - Azure
+    - Docker
+    - Terraform
+    - Airflow
+    - Stripe
+    - Shopify
+  responsibilities:
+    - Development of Kano World, a suite of engaging web applications aimed at teaching children coding skills and fostering their creativity.
+    - Successfully integrated payment APIs (Paddle/Shopify)
+
+- company: Reason Studios
+  description: Music production software
+  link: reasonstudios.com
+  location: Stockholm
+  positions:
+    - title: Full Stack Developer (consultant)
+      dates: Dec 2018 - Jun 2021 (2y 7m)
+    - title: Full Stack Developer
+      dates: Nov 2017 - Dec 2018 (1y 1m)
+    - title: Frontend Developer / Design
+      dates: Mar 2014 - Nov 2017 (3y 8m)
+  stack:
+    - JavaScript
+    - React
+    - Sass
+    - Python
+    - Django
+    - Jenkins
+    - Vagrant/Ansible
+  responsibilities:
+    - Led the design and development of digital synth plugin shop, successfully rewriting from pHp/ColdFusion to Django/React.
+    - Conducted data analysis and user segmentation to drive engagement and enhance overall user experience.
+    - Developed marketing automation strategies using Salesforce APIs, resulting in improved efficiency and effectiveness of marketing campaigns.
+    - Played a key role in infrastructure development by transitioning from Vagrant and Ansible to AWS and Docker, leading to enhanced scalability and performance of web applications.
+    - Created internal analytics dashboards to provide real-time insights and enable data-driven decision making within the company.
+
+- company: Monki
+  description: Fashion brand
+  link: monki.com
+  location: Stockholm
+  positions:
+    - title: Graphic designer / Final art
+      dates: Apr 2013 - Jan 2014 (9m)
+  stack:
+    - Photoshop
+    - Illustrator
+    - InDesign
+    - JavaScript
+    - AppleScript
+    - Wordpress
+    - HTML/CSS
+    - pHp
+  responsibilities:
+    - Design for a range of material for print and web.
+    - Development of online campaigns for monki website.
+    - Design and development of internal sites to be used by store employees.
+
+- company: Bright Young Things Tuition
+  description: Customized tutoring services
+  location: London
+  positions:
+    - title: App Designer / Front End Developer (Consultant)
+      dates: Sept 2012 - Mar 2013 (7m)
+  stack:
+    - PhoneGap
+    - JavaScript
+    - Objective-C
+    - HTML/CSS
+    - Adobe Creative Suite
+  responsibilities:
+    - Designed & built a multiple-choice question mobile app using PhoneGap. App was marketed as a freemium app on both Apple and Android stores.
+
+# - company: Craftsman Industries
+#   location: London
+#   stack:
+#     - HTML/CSS
+#     - JavaScript
+#     - Flash
+#     - Adobe Creative Suite
+#     - PhoneGap
+#   positions:
+#     - title: Web Designer / Front End developer
+#       dates: Jan 2012 - Aug 2012 (8m)
+#   responsibilities:
+#     - App development of the 'Notting Hill Carnival App' - a cross platform mobile app created with PhoneGap and the Google Maps API.
+
+# - company: Realise
+#   location: Edinburgh
+#   stack:
+#     - HTML/CSS
+#     - JavaScript
+#     - Flash
+#     - Adobe Creative Suite
+#   positions:
+#     - title: Intern
+#       dates: Oct 2011 - Dec 2011 (3m)
+#   responsibilities:
+#     - Design and development of client sites, competitor analysis, avatar icons, produced short augmented reality videos with After Effects and made Flash adverts for clients in the financial sector.

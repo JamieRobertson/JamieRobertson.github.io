@@ -1,8 +1,10 @@
 @import "./bootstrap-4.1.3/bootstrap"
 
 $jr-sidebar-width: 15.6rem
-$jr-sidebar-bg: #02171d
-$jr-avatar-size: 135px
+$jr-sidebar-bg: #0b2830 // #02171d
+$jr-avatar-size: 95px
+$main-padding-top: 60px
+
 
 aside.sidebar
     display: flex
@@ -25,19 +27,37 @@ aside.sidebar
         left: 0
         bottom: 0
         max-width: $jr-sidebar-width
+    
+    @media print
+        flex-direction: column
+        justify-content: top
+        position: fixed
+        top: 0
+        left: 0
+        bottom: 0
+        max-width: $jr-sidebar-width + 1rem
+        padding-left: 30px
+
+        .fa
+            display: none
 
     ul 
         padding: 0
+        @media print
+            padding-top: 47px
     p, li
         font-size: 0.9rem
     a
         color: $white
         text-decoration: underline
-        &:hover
+        &:hover, &:focus
             color: white
             // @media (min-width: $screen-sm-min)
                 // a
                     // color: #8693a2
+        @media print
+            text-decoration: none
+            color: white
 
 
 img.avatar
@@ -45,12 +65,85 @@ img.avatar
     height: $jr-avatar-size
     margin: 0.5rem auto 2rem
     border-radius: 50%
-    border: 1px solid lighten($jr-sidebar-bg, 10%)
+    border: 6px solid #89174b
+    // another border
+    outline: 3px solid lighten($jr-sidebar-bg, 5%)
     
     @include media-breakpoint-only(sm)
         margin: 0 2rem 0 0
+    
+    @media print
+        display: none
+        // width: $jr-avatar-size * 0.6
+        // height: $jr-avatar-size * 0.6
 
 
 main.main
-    padding-top: 60px
+    padding-top: $main-padding-top
     padding-bottom: 80px
+
+    @media print 
+        margin-left: $jr-sidebar-width + 2rem
+
+
+.stack
+    &__item
+        display: inline-block
+        font-weight: 700
+        line-height: 1
+        text-align: center
+        white-space: nowrap
+        vertical-align: baseline
+        border-radius: .25rem
+        font-weight: normal
+        color: #111
+        background-color: #fdf1ce
+        font-size: .65rem
+        margin-top: 6px
+        margin-right: 5px
+        padding: .45em .5em
+        letter-spacing: .2px
+        border: 1px solid #f2d37f
+
+
+small, .small
+    font-size: .8rem
+
+.text-divider
+    margin-top: 3rem
+    margin-bottom: 3.75rem
+    text-align: center
+
+    &::after
+        content: ''
+        display: block
+        width: 100%
+        border-top: 1px solid rgba(0,0,0,0.1)
+        margin-top: -12px
+        z-index: 1
+
+    &__inner
+        display: inline-block
+        background-color: white
+        padding: 4px 12px
+        margin: 0
+        z-index: 2
+
+
+@media print
+    body
+        padding: 0
+        margin: 0
+
+    @page
+        size: auto
+        // margin: 0 0 10mm 0
+        // &:first
+        //     margin: 20mm 0 10mm 0
+
+    a
+        &:not(.btn)
+            text-decoration: none  // revert bt style 
+
+    .exp dt h3
+        font-size: $h4-font-size
