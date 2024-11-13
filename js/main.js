@@ -94,46 +94,63 @@ function buildPie(data) {
     return pointsArray;
 }
 
-jQuery(function($) {
+// jQuery(function($) {
 
-    var $TrhChart = $('#TrhChart');
+//     var $TrhChart = $('#TrhChart');
 
-    // Contact me
-    // http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/
-    $('.e-hidden').append(genEmail());
+//     // Contact me
+//     // http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/
+//     $('.e-hidden').append(genEmail());
 
 
-    var currentDate = new Date(),
-        june2021 = new Date('June 1, 2021'),
-        timeDifferenceStem = currentDate.getTime() - june2021.getTime(),
-        yearsStem = timeDifferenceStem / (1000 * 60 * 60 * 24 * 365.25);
-    $('#yearsStem').append(`(${yearsStem.toFixed(1)} years)`);
+//     var currentDate = new Date(),
+//         june2021 = new Date('June 1, 2021'),
+//         timeDifferenceStem = currentDate.getTime() - june2021.getTime(),
+//         yearsStem = timeDifferenceStem / (1000 * 60 * 60 * 24 * 365.25);
+//     $('#yearsStem').append(`(${yearsStem.toFixed(1)} years)`);
 
-    // Treehouse request
-    // function renderTreehouse() {
-    //     $.ajax({ 
-    //         type: 'GET',
-    //         url: 'https://teamtreehouse.com/jamierobertson.json',
-    //         dataType: 'json', 
-    //         success: function(data) { 
-    //             var pointsArray = buildPie(data.points);
-    //             // console.log(pointsArray);
-    //             renderPieChart($TrhChart, pointsArray);
-    //         }
-    //     });
-    // }
-    // if ($TrhChart.length) {
-    //     renderTreehouse();
-    // }
+//     // Treehouse request
+//     // function renderTreehouse() {
+//     //     $.ajax({ 
+//     //         type: 'GET',
+//     //         url: 'https://teamtreehouse.com/jamierobertson.json',
+//     //         dataType: 'json', 
+//     //         success: function(data) { 
+//     //             var pointsArray = buildPie(data.points);
+//     //             // console.log(pointsArray);
+//     //             renderPieChart($TrhChart, pointsArray);
+//     //         }
+//     //     });
+//     // }
+//     // if ($TrhChart.length) {
+//     //     renderTreehouse();
+//     // }
 
-    // Duoliingo request
-    // $.getJSON('https://duolingo.com/users/jamie607910?jsoncallback=?', function(data) {
-    // });
+//     // Duoliingo request
+//     // $.getJSON('https://duolingo.com/users/jamie607910?jsoncallback=?', function(data) {
+//     // });
 
-    // $('body').append('<iframe src="https://github.com/users/JamieRobertson/contributions/"></iframe>');
+//     // $('body').append('<iframe src="https://github.com/users/JamieRobertson/contributions/"></iframe>');
     
-    // $.getJSON('https://api.github.com/users/JamieRobertson/repos', function(data) {
-    //     $('#reposCount').append(data.length + ' <span>repositories</span>');
-    // });
+//     // $.getJSON('https://api.github.com/users/JamieRobertson/repos', function(data) {
+//     //     $('#reposCount').append(data.length + ' <span>repositories</span>');
+//     // });
 
+// });
+
+function onLoad(fn) {
+    if (document.readyState !== 'loading') {
+        fn();
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+
+onLoad(function () {
+    var e = document.querySelectorAll('.e-hidden');
+    if (e.length) {
+        e.forEach(($el, _) => {
+            $el.innerHTML = `<a href="mailto:${genEmail()}">${genEmail()}</a>`;
+        });
+    }
 });
