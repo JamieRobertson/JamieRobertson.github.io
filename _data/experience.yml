@@ -40,6 +40,7 @@
     - Cypress
     - Python
     - Flask
+    - Django
     - AWS
     - Azure
     - Docker
@@ -49,7 +50,8 @@
     - Shopify
   responsibilities:
     - Development of Kano World, a suite of engaging web applications aimed at teaching children coding skills and fostering their creativity.
-    - Successfully integrated payment APIs (Paddle/Shopify)
+    - Successfully integrated payment APIs (Paddle/Shopify).
+    - Inherited / migrated serverless Django e-commerce backend from consultancy to bring in-house.
 
 - company: Reason Studios
   description: Music production software
