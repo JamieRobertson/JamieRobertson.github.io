@@ -1,10 +1,10 @@
-- company: STEM Tech
+- company: STEM FM by STEM Tech 
   description: Music streaming platform and product collaboration with Kanye West
-  link: stem.tech
+  link: stem.fm
   location: London
   positions:
     - title: Full Stack Developer
-      dates: Jun 2021 - present (3+ years)
+      dates: Jun 2023 - Oct 2025 (2+ years)
   stack:
     - TypeScript
     - React
@@ -21,9 +21,10 @@
     - Shopify
   responsibilities:
     - Developed and enhanced stemplayer.com, a React web app that uses the WebUSB API for seamless communication with the StemPlayer, an audio mixing device, transforming it into an innovative audio streaming and mixing platform.
-    - Developed stem.tech, a music streaming platform that allows artists to upload and monetize their music, and fans to discover and support their favorite artists.
+    - Developed stem.fm, a music streaming platform that allows artists to upload and monetize their music, and fans to discover and support their favorite artists.
     - Leveraged Python to build robust APIs supporting various functionalities within the web app, including intelligent music splitting through machine learning algorithms.
     - Successfully integrated payment APIs (Shopify/Stripe) for subscriptions and purchases, optimizing the e-commerce experience.
+    - Designed and implemented music streaming analysis tools and logic for attribution of royalties and payouts to major music labels and independent artists. 
 
 - company: Kano Computing
   description: Web apps, DIY computers and coding kits for kids
@@ -31,7 +32,7 @@
   location: London
   positions: 
     - title: Full Stack Developer
-      dates: Jun 2021 - Jun 2023 (3 years)
+      dates: Jun 2021 - Jun 2023 (2 years)
   stack:
     - TypeScript
     - React
@@ -60,7 +61,7 @@
     - title: Full Stack Developer
       dates: Nov 2017 - Dec 2018 (1y 1m)
     - title: Frontend Developer / Design
-      dates: Mar 2014 - Nov 2017 (3y 8m)
+      dates: Feb 2014 - Nov 2017 (3y 9m)
   stack:
     - JavaScript
     - React
