@@ -1,0 +1,75 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8"
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap')
+
+// enter the void
+
+// animations
+// @keyframes flash
+//     0%, 100%
+//         opacity: 1
+//     50% 
+//         opacity: 0
+
+
+@keyframes bg-color
+    0%, 100%
+        background-color: #111
+    50%
+        background-color: #0f0
+
+
+// red to orange
+@keyframes txt-noe
+    0%, 100%
+        color: #ff0d00
+        // opacity: 1
+    50%
+        color: #ffa500
+        // opacity: 0.4
+
+
+body
+    margin: 0
+    padding: 0
+    font-family: "League Spartan", Futura, Roboto, sans-serif
+    font-optical-sizing: auto
+    font-weight: 800
+    font-style: italic
+    text-transform: uppercase
+    letter-spacing: 0.05em
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+    background-color: #111
+    // animation: bg-color 15s infinite
+    // Full width font size
+    font-size: 25vw
+    line-height: 1
+
+    article
+        // font-size: 2rem
+        color: white
+        // text-align: center
+        text-align: justify
+        width: auto
+        max-width: 2048px
+        margin: 0 auto
+        padding: 1rem
+
+        #txt
+            width: 100%
+            display: block      // or flex
+            // text-align: center  // or left/right as needed
+            animation: txt-noe .15s infinite
+            
+            // padding: 1rem
+            margin: 0
+            // box-shadow: 0 0 10px rgba(0, 255, 0, 0.5)
+            // animation: flash 1s infinite
+            white-space: pre-wrap
+            word-wrap: break-word
