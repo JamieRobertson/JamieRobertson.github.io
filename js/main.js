@@ -8,7 +8,7 @@ function rot13(s) {
 }
 
 function genEmail() {
-    var e = [rot13('uryyb.wnzvr'),'&commat;',rot13('cz.zr')].join('');
+    var e = [rot13('uryyb.wnzvr'), '&commat;', rot13('cebgbaznvy.pbz')].join('');
     return e;
 }
 
