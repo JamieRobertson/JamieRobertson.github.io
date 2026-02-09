@@ -1,61 +1,61 @@
 - company: STEM FM by STEM Tech 
   description: Music streaming platform and product collaboration with Kanye West
-  link: stem.fm
+  links: 
+    - url: https://stem.fm
+      title: stem.fm
+    - url: https://stem.tech
+      title: stem.tech
   location: London
   positions:
     - title: Full Stack Developer
       dates: Jun 2023 - Oct 2025 (2+ years)
   stack:
-    - TypeScript
-    - React
-    - Jest
-    - Cypress
-    - Python
-    - Flask
-    - AWS
-    - Azure
+    - TypeScript | React
+    - Jest | Cypress
+    - Python | Flask | FastAPI
+    - Terraform | AWS
+    - Azure CI/CD
     - Docker
-    - Terraform
     - Airflow
-    - Stripe
-    - Shopify
+    - Stripe | Shopify
+    - Spotify
+    - Postgres | DynamoDB
   responsibilities:
-    - Developed and enhanced stemplayer.com, a React web app that uses the WebUSB API for seamless communication with the StemPlayer, an audio mixing device, transforming it into an innovative audio streaming and mixing platform.
-    - Developed stem.fm, a music streaming platform that allows artists to upload and monetize their music, and fans to discover and support their favorite artists.
-    - Leveraged Python to build robust APIs supporting various functionalities within the web app, including intelligent music splitting through machine learning algorithms.
-    - Successfully integrated payment APIs (Shopify/Stripe) for subscriptions and purchases, optimizing the e-commerce experience.
-    - Designed and implemented music streaming analysis tools and logic for attribution of royalties and payouts to major music labels and independent artists. 
+    - full-stack development of stem.fm, a music streaming platform that employs machine learning algorithms to modify and mix the audio data
+    - development of stemplayer.com, a React web app and collaboration with Kanye West, that uses the WebUSB API for seamless communication with the StemPlayer, an audio mixing device, transforming it into an innovative audio streaming and mixing platform
+    - backend development of robust APIs supporting various functionalities within the web app, including intelligent music splitting through machine learning algorithms
+    - integration of payment APIs (Shopify/Stripe) for subscriptions and purchases, optimizing the e-commerce experience
+    - "design and implementation of a business model for the product: collection and analysis of listening data from streaming audio to determine payouts for artists based on a user's data, and implementation of a paywall business model through user authentication, permissions and temporary user identification"
 
 - company: Kano Computing
   description: Web apps, DIY computers and coding kits for kids
-  link: kano.me
+  links: 
+    - url: https://kano.me
+      title: kano.me
   location: London
   positions: 
     - title: Full Stack Developer
       dates: Jun 2021 - Jun 2023 (2 years)
   stack:
-    - TypeScript
-    - React
-    - Jest
-    - Cypress
-    - Python
-    - Flask
-    - Django
-    - AWS
-    - Azure
+    - TypeScript | React
+    - Jest | Cypress
+    - Python | Flask | Django
+    - Terraform | AWS
+    - Azure CI/CD
     - Docker
-    - Terraform
     - Airflow
-    - Stripe
-    - Shopify
+    - Stripe | Shopify
+    - Postgres | DynamoDB
   responsibilities:
-    - Development of Kano World, a suite of engaging web applications aimed at teaching children coding skills and fostering their creativity.
-    - Successfully integrated payment APIs (Paddle/Shopify).
-    - Inherited / migrated serverless Django e-commerce backend from consultancy to bring in-house.
+    - development of Kano World, a suite of engaging web applications aimed at teaching children coding skills and fostering their creativity 
+    - integration of payment APIs (Paddle/Shopify)
+    - inherited / migrated serverless Django e-commerce backend from consultancy to bring in-house
 
 - company: Reason Studios
   description: Music production software
-  link: reasonstudios.com
+  links: 
+    - url: https://reasonstudios.com
+      title: reasonstudios.com
   location: Stockholm
   positions:
     - title: Full Stack Developer (consultant)
@@ -65,23 +65,25 @@
     - title: Frontend Developer / Design
       dates: Feb 2014 - Nov 2017 (3y 9m)
   stack:
-    - JavaScript
-    - React
+    - JavaScript | React
+    - Python | Django
     - Sass
-    - Python
-    - Django
     - Jenkins
-    - Vagrant/Ansible
+    - Vagrant | Ansible
+    - AWS | Docker
+    - Postgres | MySQL
   responsibilities:
-    - Led the design and development of digital synth plugin shop, successfully rewriting from pHp/ColdFusion to Django/React.
-    - Conducted data analysis and user segmentation to drive engagement and enhance overall user experience.
-    - Developed marketing automation strategies using Salesforce APIs, resulting in improved efficiency and effectiveness of marketing campaigns.
-    - Played a key role in infrastructure development by transitioning from Vagrant and Ansible to AWS and Docker, leading to enhanced scalability and performance of web applications.
-    - Created internal analytics dashboards to provide real-time insights and enable data-driven decision making within the company.
+    - led the design and development of digital synth plugin shop, successfully rewriting from pHp/ColdFusion to Django/React
+    - conducted data analysis and user segmentation to drive engagement and enhance overall user experience
+    - developed marketing automation strategies using Salesforce APIs, resulting in improved efficiency and effectiveness of marketing campaigns
+    - played a key role in infrastructure development by transitioning from Vagrant and Ansible to AWS and Docker, leading to enhanced scalability and performance of web applications 
+    - created internal analytics dashboards to provide real-time insights and enable data-driven decision making within the company
 
 - company: Monki
   description: Fashion brand
-  link: monki.com
+  links: 
+    - url: https://monki.com
+      title: monki.com
   location: Stockholm
   positions:
     - title: Graphic designer / Final art
@@ -93,7 +95,7 @@
     - JavaScript
     - AppleScript
     - Wordpress
-    - HTML/CSS
+    - HTML | CSS
     - pHp
   responsibilities:
     - Design for a range of material for print and web.
@@ -102,6 +104,9 @@
 
 - company: Bright Young Things Tuition
   description: Customized tutoring services
+  links: 
+    - url: https://www.linkedin.com/company/bright-young-things-tuition/
+      title: BYT
   location: London
   positions:
     - title: App Designer / Front End Developer (Consultant)
@@ -110,7 +115,7 @@
     - PhoneGap
     - JavaScript
     - Objective-C
-    - HTML/CSS
+    - HTML | CSS
     - Adobe Creative Suite
   responsibilities:
     - Designed & built a multiple-choice question mobile app using PhoneGap. App was marketed as a freemium app on both Apple and Android stores.

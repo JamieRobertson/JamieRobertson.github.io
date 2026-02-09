@@ -22,10 +22,12 @@ layout: simple
                 <h1 class="h2 font-weight-normal mb-3">Jamie Robertson</h1>
 
                 <p class="h5 font-weight-normal mb-3">
-                    I work as a <b>full stack developer</b> for music streaming startup, <a href="https://stem.fm" target="_blank" rel="nofollow">STEM FM</a> &mdash; deconstructing music into its constitutive parts and building it back up in new and exciting ways using machine learning algorithms.
+                    I am a <b>full-stack developer</b> with over 8 years of professional experience working with <b>Python</b> and <b>React JS</b>. In my latest
+                    role I worked for a music streaming startup that employs machine learning algorithms to modify and mix the audio data.
+                    The product is called Stem FM.
                 </p>
                 <p class="small d-print-none">
-                    STEM FM (from company, STEM Tech) originated from a collaboration with Kanye West to develop a handheld audio mixing device called the StemPlayer. 
+                    Stem FM (from company, STEM Tech) originated from a collaboration with Kanye West to develop a beautiful handheld audio mixing device called the StemPlayer. As of writing, the streaming service is still in an early access phase. 
                 </p>
                 <p class="small d-print-none">
                     The partnership was originally with <a href="https://kano.me" target="_blank" rel="nofollow">Kano Computing</a>. 
@@ -65,9 +67,10 @@ layout: simple
                         <small class="text-muted font-italic">
                             {% if x.description %} {{ x.description }} {% endif %}
                             <br>
-                            {% if x.link and x.location -%}
-                                <a href="{{ x.link }}" target="_blank">{{ x.link }}</a>
-                                | {{ x.location }}
+                            {% if x.links and x.location -%}
+                                {%- for link in x.links -%}
+                                <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+                                |&nbsp;{%- endfor -%} {{ x.location }}
                             {%- endif %}
                         </small>
                     </dt>
@@ -123,7 +126,7 @@ layout: simple
 
             <div class="d-print-none">
                 <hr class="my-5">
-                <h4>😸 Technology I have experience working with:</h4>
+                <h4>😸 I have experience working with:</h4>
                 <ul class="list-unstyled">
                     <li><b>Python</b>: 
                         <small class="text-muted"><em>Django, Scrapy, Celery, Flask</em></small>
@@ -159,7 +162,7 @@ layout: simple
                 </ul>
                 <br>
                 
-                <h4>🙀 Technologies I have worked with in the past:</h4>
+                <h4>🙀 and in the past I have even worked with:</h4>
                 <ul class="list-unstyled">
                     <li>pHp, Wordpress, ActionScript (Flash), ColdFusion, jQuery, Ember, Backbone</li>
                 </ul>
